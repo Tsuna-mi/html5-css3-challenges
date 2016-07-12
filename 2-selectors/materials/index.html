@@ -6,81 +6,93 @@
 
  </head>
  <body>
-  <img src="logo.jpg" alt="Logo">
-
-  <h1>About</h1>
- 
-  <p>It can be intimidating for women to learn and ask questions when they are in an <strong>extreme minority</strong>. While open and welcoming, today's budding developer community is up to <strong>91% male</strong>. If we can empower more females with the confidence in their technological capabilities <em>we can begin to change this landscape</em>.
-  </p>
-
-  <h2>Our Locations</h2>
-  <ul>
-   <li>USA
-     <ul>
-      <li><a href="#">New York</a></li>
-      <li><a href="#">Columbus</a></li>
-      <li><a href="#">Austin</a></li>
-      <li><a href="#">Philly</a></li>
-     </ul>
-   </li>
-   <li>World
-     <ul>
-      <li><a href="#">Ottawa</a></li>
-      <li><a href="#">Sydney</a></li>
-     </ul>
-   </li>
-  </ul>
-
-  <h2>Upcoming Classes</h2>
-  <table border="1">
-   <thead>
-    <tr>
-     <th>Location</th>
-     <th>Topic</th>
-    </tr>
-   </thead>
-   <tbody>
-    <tr>
-     <td>New York</td>
-     <td>JavaScript &amp; jQuery</td>
-    </tr>
-    <tr>
-      <td>San Francisco</td>
-      <td>HTML &amp; CSS</td>
-    </tr>
-   </tbody>
-  </table>
-
-  <h2>Sign Up!</h2>
-  <form action="#" method="post">
-    <label>Name: <input name="name" type="text"></label>
-    <br>
-    <label>Email: <input name="email" type="email"></label>
-    <br>
-    <label>Location:
-      <select name="location">
-        <option value="sf">San Francisco</option>
-        <option value="nyc">New York</option>
-      </select></label>
-    <br>
-    <fieldset>
-      <legend>Gender:</legend>
-      <label for="female">Female</label>
-      <input type="radio" name="gender" id="female" value="female">
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="male" value="male">
-    </fieldset>
-    <br>
-    <label>Experience:
-    <br>
-    <textarea name="experience"></textarea> 
-    </label>
-    <br>
-    <button type="submit">Sign Up</button>
-  </form>
-  
-  <br><br>
-  <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Flickr</a>
-
+    <!-- @begin HEADER -->
+    <header>
+      <img src="logo.jpg" alt="Logo">
+    </header>
+    <!-- @end HEADER -->
+    <!-- @begin MAIN -->
+    <main>
+      <section>
+          <h1>About</h1>
+          <p>It can be intimidating for women to learn and ask questions when they are in an <strong>extreme minority</strong>. While open and welcoming, today's budding developer community is up to <strong>91% male</strong>. If we can empower more females with the confidence in their technological capabilities <em>we can begin to change this landscape</em>.</p>
+      </section>
+      <section>
+          <h2>Our Locations</h2>
+          <ul>
+           <li>USA
+             <ul>
+              <li><a href="#" target="_self">New York</a></li>
+              <li><a href="#" target="_self">Columbus</a></li>
+              <li><a href="#" target="_self">Austin</a></li>
+              <li><a href="#" target="_self">Philly</a></li>
+             </ul>
+           </li>
+           <li>World
+             <ul>
+              <li><a href="#" target="_self">Ottawa</a></li>
+              <li><a href="#" target="_self">Sydney</a></li>
+             </ul>
+           </li>
+          </ul>
+      </section>
+      <section>
+          <h2>Upcoming Classes</h2>
+          <table border="1">
+           <thead>
+            <tr>
+             <th>Location</th>
+             <th>Topic</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+             <td>New York</td>
+             <td>JavaScript &amp; jQuery</td>
+            </tr>
+            <tr>
+              <td>San Francisco</td>
+              <td>HTML &amp; CSS</td>
+            </tr>
+           </tbody>
+          </table>
+      </section>
+      <section>
+          <h2>Sign Up!</h2>
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input name="name" id="name" type="text">
+            <br />
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email">
+            <br />
+            <label for="location">Location:</label>
+              <select name="location" id="location">
+                <option value="sf">San Francisco</option>
+                <option value="nyc">New York</option>
+              </select>
+            <br />
+            <fieldset>
+              <legend>Gender:</legend>
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" value="female">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="male" value="male">
+            </fieldset>
+            <br />
+            <label for="experience">Experience:</label>
+            <br />
+            <textarea name="experience" id="experience"></textarea>            
+            <br />
+            <button type="submit">Sign Up</button>
+          </form>
+      </section>
+    </main>
+    <!-- @end MAIN -->
+    <!-- @begin FOOTER -->
+    <footer>
+      <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Flickr</a>
+    </footer>  
+    <!-- @end FOOTER -->
  </body>
 </html>
